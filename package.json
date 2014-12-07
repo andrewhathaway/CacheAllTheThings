@@ -1,0 +1,23 @@
+{
+  "name": "CacheAllTheThings",
+  "version": "1.0.0",
+  "description": "Cache library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:andrewhathaway/cacheallthethings.git"
+  },
+  "keywords": [
+    "cache",
+    "library",
+    "js",
+    "node",
+    "redis",
+    "memcached"
+  ],
+  "author": "Andrew Hathaway <andrew@andrewhathaway.net>",
+  "license": "MIT"
+}
