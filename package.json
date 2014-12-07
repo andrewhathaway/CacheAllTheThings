@@ -19,5 +19,8 @@
     "memcached"
   ],
   "author": "Andrew Hathaway <andrew@andrewhathaway.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.1.2"
+  }
 }
