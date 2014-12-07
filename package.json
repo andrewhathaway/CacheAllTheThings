@@ -21,6 +21,8 @@
   "author": "Andrew Hathaway <andrew@andrewhathaway.net>",
   "license": "MIT",
   "dependencies": {
-    "q": "^1.1.2"
+    "memcached": "^2.0.0",
+    "q": "^1.1.2",
+    "redis": "^0.12.1"
   }
 }
