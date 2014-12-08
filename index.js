@@ -14,5 +14,5 @@ module.exports = function(service, config) {
     return new MemcachedCache(config);
   }
 
-  return {};
+  throw new Error('Service does not exist in CacheAllTheThings');
 };
