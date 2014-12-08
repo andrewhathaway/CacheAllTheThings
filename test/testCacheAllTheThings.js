@@ -49,6 +49,29 @@ describe('CacheAllTheThings', function() {
         });
     });
 
+    it('Should set an object, and get back an object', function(done) {
+      var redisInst = new CacheAllTheThings('redis');
+
+      redisInst
+        .set('obj', {
+          testing : true
+        })
+        .then(function() {
+
+          redisInst
+            .get('obj')
+            .then(function(val) {
+              Assert(val, {
+                testing : true
+              });
+              done();
+            }, function(e) {
+              done();
+            });
+
+        });
+    });
+
   });
 
 });
