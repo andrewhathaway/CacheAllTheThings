@@ -1,5 +1,5 @@
 {
-  "name": "CacheAllTheThings",
+  "name": "cacheallthethings",
   "version": "1.0.0",
   "description": "Cache library for Node.js",
   "main": "index.js",
