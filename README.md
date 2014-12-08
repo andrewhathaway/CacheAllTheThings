@@ -8,6 +8,8 @@
 
 ## Usage
 
+    npm install cacheallthethings --save
+
 ```Javascript
 var CacheAllTheThings = require('cacheallthethings');
 
