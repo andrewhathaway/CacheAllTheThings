@@ -3,11 +3,17 @@ var CacheAllTheThings = require('../');
 
 describe('CacheAllTheThings', function() {
 
+  /*
+   * Generic Tests
+   */
   it('When asked to boot a Redis instance, it should do so', function() {
     var inst = new CacheAllTheThings('redis');
     Assert(inst.name, 'RedisCache');
   });
 
+  /*
+   * Redis Tests
+   */
   describe('Redis', function() {
 
     it('Should set a key', function(done) {
@@ -87,7 +93,6 @@ describe('CacheAllTheThings', function() {
             });
 
         });
-
     });
 
   });
