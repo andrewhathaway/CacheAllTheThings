@@ -11,6 +11,11 @@ describe('CacheAllTheThings', function() {
     Assert(inst.name, 'RedisCache');
   });
 
+  it('When asked to boot a Memcached instance, it should do so', function() {
+    var inst = new CacheAllTheThings('memcached');
+    Assert(inst.name, 'MemcachedCache');
+  });
+
   /*
    * Redis Tests
    */
