@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Update
-sudo yum update -y
+#sudo yum update -y
 
 # Redis
 sudo yum install redis -y
