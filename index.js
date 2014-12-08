@@ -3,7 +3,6 @@ var MemcachedCache = require('./lib/memcachedCache');
 
 /**
  * Cache All The Things
- * @todo: Custom cache handlers
  */
 module.exports = function(service, config) {
   if (service == 'redis') {
