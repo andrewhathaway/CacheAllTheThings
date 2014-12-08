@@ -72,6 +72,24 @@ describe('CacheAllTheThings', function() {
         });
     });
 
+    it('Should be able to delete a key', function(done) {
+      var redisInst = new CacheAllTheThings('redis');
+
+      redisInst
+        .del('lol')
+        .then(function() {
+
+          redisInst
+            .get('lol')
+            .then(function(val) {
+              Assert.equal(val, null);
+              done();
+            });
+
+        });
+
+    });
+
   });
 
 });
