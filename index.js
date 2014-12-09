@@ -1,15 +1,15 @@
-var RedisCache     = require('./lib/redisCache');
-var MemcachedCache = require('./lib/memcachedCache');
 
 /**
  * Cache All The Things
  */
 module.exports = function(service, config) {
   if (service == 'redis') {
+    var RedisCache = require('./lib/redisCache');
     return new RedisCache(config);
   }
 
   if (service == 'memcached') {
+    var MemcachedCache = require('./lib/memcachedCache');
     return new MemcachedCache(config);
   }
 
