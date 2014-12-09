@@ -24,7 +24,7 @@
     "lodash": "^2.4.1",
     "memcached": "^2.0.0",
     "q": "^1.1.2",
-    "redback": "^0.4.0",
+    "redback": "^0.4.0"
   },
   "devDependencies": {
     "assert": "^1.1.2",
