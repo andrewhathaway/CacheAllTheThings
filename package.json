@@ -1,6 +1,6 @@
 {
   "name": "cacheallthethings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cache library for Node.js",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "lodash": "^2.4.1",
     "memcached": "^2.0.0",
     "q": "^1.1.2",
-    "redback": "^0.12.1"
+    "redback": "^0.4.0",
   },
   "devDependencies": {
     "assert": "^1.1.2",
